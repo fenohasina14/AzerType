@@ -1,0 +1,67 @@
+*{
+    text-align: center;
+    align-items: center;
+    font-family: monospace;
+}
+
+h1{
+    color: #ff9500;
+    font-size: 4vw;
+}
+
+h3{
+    font-size: 2vw;
+    color: #ff9500;
+}
+
+.ecriture3{
+    font-size: 1.5vw;
+    color: #ff9500;
+}
+
+.conteneur{
+    border: solid white;
+    background-color: #ff9500;
+    width: 40vw;
+    height: 23vw;
+    border-radius: 2vw;
+    margin-left: 30vw;
+}
+
+.phrase{
+    color: white;
+    padding: 1.5vw;
+    font-size: 1vw;
+}
+
+.champ{
+    display: flex;
+}
+
+.ecran{
+    width: 38.5vw;
+    height: 4vw;
+    border-radius: 5vw;
+    border: white;
+}
+
+.champEcriture{
+    width: 32vw;
+    height: 2vw;
+    border: white;
+    margin-left: 1vw;
+    border-radius: 5vw;
+}
+
+button{
+    margin-left: 1vw;
+}
+
+.score{
+    color: white;
+    font-size: 1vw;
+}
+
+label{
+    font-size: 1vw;
+}

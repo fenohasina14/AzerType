@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AzerType</title>
+    <link rel="stylesheet" href="Azertype.css">
+    <script src="Azertype.js" defer></script>
+</head>
+
+<body>
+    <div class="en-tete">
+        <h1>AzerType</h1>
+        <h3>L'application pour écrire plus vite!</h3>
+        <p class="ecriture3">AzerType est une application en ligne pour apprendre à taper plus vite au clavier</p>
+    </div>
+    <div class="conteneur">
+        <p class="phrase">Choisissez votre option et tapez la proposition qui s'affiche dans le champ en-dessous</p>
+        <form action="" class="choix" >
+            <input type="radio" id="choixMot" name="choix">
+            <label for="">Mots</label>
+            <input type="radio" id="choixPhrase" name="choix">
+            <label for="">Phrase</label>
+        </form><br>
+        <form action="">
+            <input type="text" class="ecran" id="MotATaper">
+        </form>
+        <br>
+        <div class="champ">
+            <form action="">
+                <input type="text" class="champEcriture" id="MotTapé">
+            </form>
+            <button>Valider</button>
+        </div>
+        <br><br>
+        <p class="score">Votre score est : <span id="point">0</span></p>
+    </div>
+</body>
+
+</html>
