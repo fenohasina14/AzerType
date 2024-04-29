@@ -63,7 +63,7 @@ formulaire.addEventListener('submit', (e) => {
 });
 
 function genererMot() {
-    const mots = ['chat', 'chien', 'maison', 'voiture', 'ordinateur'];
+    const mots = ['HEI', 'Test', 'WEB1', 'examen', 'Azerty'];
     const randomIndex = Math.floor(Math.random() * mots.length);
     const motAleatoire = mots[randomIndex];
     motATaperInput.value = motAleatoire;
@@ -71,9 +71,8 @@ function genererMot() {
 }
 
 function genererPhrase() {
-    const phrases = ['Bonjour tout le monde', 'Comment ça va ?', 'Je suis un test', 'Programmation est amusante'];
-    const randomIndex = Math.floor(Math.random() * phrases.length);
-    const phraseAleatoire = phrases[randomIndex];
+    const phrases = ['Ca va ?', 'Test du site', 'Assistant WEB1', 'Examen de WEB1'];
+    const phraseAleatoire = phrases[Math.floor(Math.random() * phrases.length)];
     motATaperInput.value = phraseAleatoire;
     motAComparer = phraseAleatoire;
 }
